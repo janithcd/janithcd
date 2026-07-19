@@ -29,20 +29,20 @@
 <div align="center">
 
 <img
-  src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=2f81f7&style=for-the-badge"
+  src="https://komarev.com/ghpvc/?username=janithcd&label=Profile%20Views&color=2f81f7&style=for-the-badge"
   alt="Profile views"
 />
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME?tab=followers">
+<a href="https://github.com/janithcd?tab=followers">
   <img
-    src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=for-the-badge&logo=github"
+    src="https://img.shields.io/github/followers/janithcd?label=Followers&style=for-the-badge&logo=github"
     alt="GitHub followers"
   />
 </a>
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/janithcd">
   <img
-    src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars"
+    src="https://img.shields.io/github/stars/janithcd?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars"
     alt="GitHub stars"
   />
 </a>
@@ -77,52 +77,3 @@
 </a>
 
 </div>
-
----
-
-## 👨‍💻 About Me
-
-```javascript
-const janith = {
-    name: "Janith Dasanayaka",
-    location: "Sri Lanka",
-    education: "Software Engineering Student",
-
-    roles: [
-        "Full-Stack Developer",
-        "Java and Spring Boot Developer",
-        "MERN Stack Developer",
-        "DevOps Enthusiast",
-        "Photographer"
-    ],
-
-    interests: [
-        "Software Engineering",
-        "Web Application Development",
-        "DevOps and Cloud Computing",
-        "Artificial Intelligence Integration",
-        "Business Management Systems",
-        "Photography and Visual Storytelling"
-    ],
-
-    currentFocus: [
-        "Building production-ready portfolio projects",
-        "Learning Docker and containerization",
-        "Learning CI/CD with GitHub Actions",
-        "Improving Linux and cloud deployment skills",
-        "Preparing for software engineering internships"
-    ]
-};
-**janithcd/janithcd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
