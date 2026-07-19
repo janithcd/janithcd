@@ -55,7 +55,7 @@
 
 <div align="center">
 
-<a href="YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/janithcdasanayaka/">
   <img
     src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
     alt="LinkedIn"
@@ -69,7 +69,7 @@
   />
 </a>
 
-<a href="mailto:YOUR_EMAIL_ADDRESS">
+<a href="mailto:djanith11@gmail.com">
   <img
     src="https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
     alt="Email"
