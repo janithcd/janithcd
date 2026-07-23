@@ -136,26 +136,17 @@ I'm a Software Engineering student and full-stack developer building production-
 <td>
 
 **Version Control**
-<<<<<<< HEAD
 
-=======
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
 - Git & GitHub
 - Branching workflows
 
 **Operating Systems**
-<<<<<<< HEAD
 
-=======
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
 - Linux fundamentals
 - Bash scripting
 
 **Containerization**
-<<<<<<< HEAD
 
-=======
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
 - Docker & Dockerfiles
 - Docker Compose
 
@@ -163,26 +154,17 @@ I'm a Software Engineering student and full-stack developer building production-
 <td>
 
 **CI/CD**
-<<<<<<< HEAD
 
-=======
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
 - GitHub Actions
 - Automated testing & builds
 - Deployment pipelines
 
 **Web Servers**
-<<<<<<< HEAD
 
 - Nginx & reverse proxying
 
 **Cloud**
 
-=======
-- Nginx & reverse proxying
-
-**Cloud**
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
 - AWS fundamentals
 - Environment configuration
 
@@ -206,11 +188,7 @@ I'm a Software Engineering student and full-stack developer building production-
 
 <img
   width="49%"
-<<<<<<< HEAD
   src="https://streak-stats.demolab.com/?user=janithcd&theme=tokyonight&hide_border=true"
-=======
-  src="https://github-readme-streak-stats.herokuapp.com/?user=janithcd&theme=tokyonight&hide_border=true"
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
   alt="GitHub streak"
 />
 
@@ -257,11 +235,7 @@ I'm a Software Engineering student and full-stack developer building production-
     srcset="https://raw.githubusercontent.com/janithcd/janithcd/output/github-contribution-grid-snake.svg"
   />
 
-<<<<<<< HEAD
 <img
-=======
-  <img
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
     alt="GitHub contribution snake animation"
     src="https://raw.githubusercontent.com/janithcd/janithcd/output/github-contribution-grid-snake.svg"
   />
@@ -273,7 +247,6 @@ I'm a Software Engineering student and full-stack developer building production-
 
 ## 📚 Currently Learning
 
-<<<<<<< HEAD
 | Area               | Focus                                              |
 | ------------------ | -------------------------------------------------- |
 | Backend            | Advanced Spring Boot & REST API development        |
@@ -283,17 +256,6 @@ I'm a Software Engineering student and full-stack developer building production-
 | Databases          | MongoDB & MySQL optimization                       |
 | AI                 | API integration into business applications         |
 | Testing            | Unit, integration & performance testing            |
-=======
-| Area | Focus |
-|---|---|
-| Backend | Advanced Spring Boot & REST API development |
-| Frontend | TypeScript, React & Next.js |
-| DevOps | Docker, CI/CD & GitHub Actions |
-| Cloud | AWS fundamentals & app deployment |
-| Databases | MongoDB & MySQL optimization |
-| AI | API integration into business applications |
-| Testing | Unit, integration & performance testing |
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
 | Project Management | Google Project Management Professional Certificate |
 
 <br/>
@@ -347,7 +309,7 @@ I'm a Software Engineering student and full-stack developer building production-
 
 <div align="center">
 
-### “Learn continuously, build purposefully, and improve every day.”
+### "Learn continuously, build purposefully, and improve every day."
 
 ⭐ Thanks for visiting my profile!
 
@@ -356,8 +318,4 @@ I'm a Software Engineering student and full-stack developer building production-
   src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&section=footer"
 />
 
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> ac01b6864489abfb731e885a9f9c3f336d8fcb5c
