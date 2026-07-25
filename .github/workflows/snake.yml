@@ -1,39 +1,67 @@
-name: Generate Contribution Snake
+name: Update GitHub Statistics
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
-
   workflow_dispatch:
+
+  schedule:
+    # Runs once every day at 12:30 AM UTC
+    - cron: "30 0 * * *"
 
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/stats.yml"
 
 permissions:
   contents: write
 
 jobs:
-  generate:
-    name: Generate Contribution Snake Animation
+  generate-statistics:
+    name: Generate GitHub Statistics
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVG files
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout profile repository
+        uses: actions/checkout@v6
 
-      - name: Publish SVG files to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Generate GitHub statistics card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          build_dir: dist
-          target_branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}
+            &show_icons=true
+            &theme=tokyonight
+            &hide_border=true
+            &include_all_commits=true
+            &show=reviews,prs_merged,prs_merged_percentage
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &theme=tokyonight
+            &hide_border=true
+            &langs_count=10
+            &size_weight=0.5
+            &count_weight=0.5
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit generated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/stats.svg profile/top-langs.svg
+          git commit -m "chore: update GitHub profile statistics" || exit 0
+          git push
