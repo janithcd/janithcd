@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Janith Dasanayaka&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 10, Total Commits  : 208, Total PRs: 21, Total PRs Merged: 16, Merged PRs Percentage: 76.19, Total PRs Reviewed: 1, Total Issues: 1, Contributed to (last year): 7</desc>
+        <desc id="descId">Total Stars Earned: 10, Total Commits  : 208, Total PRs: 22, Total PRs Merged: 16, Merged PRs Percentage: 72.73, Total PRs Reviewed: 1, Total Issues: 1, Contributed to (last year): 7</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 190.74334768176624;
+        stroke-dashoffset: 189.9807900281229;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >21</text>
+      >22</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >76.19 %</text>
+      >72.73 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
